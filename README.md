@@ -13,3 +13,6 @@ adds commands that allows players to turn into a civilian
 
 # Info
 there's some more polishing to be done, like the text telling you that you'll become a civilian being shown when using alwayscivilian
+
+# Requirements
+More Colors (Compile Only)
