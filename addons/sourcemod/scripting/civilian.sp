@@ -2,7 +2,7 @@
 #include <tf2_stocks>
 #include <morecolors>
 
-#define PLUGIN_VERSION "1.7"
+#define PLUGIN_VERSION "1.6"
 public Plugin myinfo = 
 {
     name = "[TF2] Civilian",
