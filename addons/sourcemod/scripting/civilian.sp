@@ -52,15 +52,15 @@ public APLRes AskPluginLoad2() // responsavel por verificar qual o jogo
 public void OnPluginStart() // responsavel por criar cvar da versão e comandos, tbm responsavel pelo arquivo de tradução
 {
 	CreateConVar("sm_civiver", PLUGIN_VERSION, "Plugin Version...", FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_DONTRECORD);
-	RegConsoleCmd("sm_civ", Command_Civil)
-	RegConsoleCmd("sm_tpose", Command_Civil)
-	RegConsoleCmd("sm_civilian", Command_Civil)
-	RegConsoleCmd("sm_apose", Command_Civil)
-	RegConsoleCmd("sm_aciv", Command_ChangeStatus)
-	RegConsoleCmd("sm_atpose", Command_ChangeStatus)
-	RegConsoleCmd("sm_alwayscivilian", Command_ChangeStatus)
-	RegConsoleCmd("sm_aapose", Command_ChangeStatus)
-	LoadTranslations("civ.phrases.txt")
+	RegConsoleCmd("sm_civ", Command_Civil);
+	RegConsoleCmd("sm_tpose", Command_Civil);
+	RegConsoleCmd("sm_civilian", Command_Civil);
+	RegConsoleCmd("sm_apose", Command_Civil);
+	RegConsoleCmd("sm_aciv", Command_ChangeStatus);
+	RegConsoleCmd("sm_atpose", Command_ChangeStatus);
+	RegConsoleCmd("sm_alwayscivilian", Command_ChangeStatus);
+	RegConsoleCmd("sm_aapose", Command_ChangeStatus);
+	LoadTranslations("civ.phrases.txt");
 	HookEvent("post_inventory_application", Event_InventoryApplication);
 }
 
